@@ -84,7 +84,7 @@ ul li {
 /* hero section */
 .hero {
   background-size: cover;
-  background-image: url(Img/harbhour.jpg);
+  background-image: url(IMG/harbhour.jpg);
   min-height: 80vh;
   display: flex;
   justify-content: center;
