@@ -1,0 +1,345 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 20px;
+}
+.supportdiv {
+  background-color: aliceblue;
+}
+.wlecome {
+  margin-right: -100px;
+  font-size: 30px;
+  color: blueviolet;
+}
+.together {
+  background-color: aliceblue;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.mainlogo {
+  display: flex;
+}
+
+.mainlogo img {
+  margin-right: 10px;
+}
+
+.links a {
+  margin-left: 50px;
+}
+
+.links {
+  padding-top: 10px;
+}
+/* nootesss */
+.top-menu {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top1-menu {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-menu h1 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif black;
+}
+.top-menu h1::first-letter {
+  font-size: 50px;
+  color: rgb(234, 11, 167);
+}
+
+.logo {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif black;
+  display: flex;
+  padding-right: 30px;
+}
+
+.center {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif black;
+  color: ;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-menu ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+ul li {
+  margin-left: 30px;
+}
+
+/* hero section */
+.hero {
+  background-size: cover;
+  background-image: url(Img/harbhour.jpg);
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.456);
+  width: 450px;
+  backdrop-filter: blur(2px);
+  padding: 50px 20px;
+  border-radius: 4px;
+  border-color: red;
+  text-align: center;
+  box-shadow: 4px 4px 6px 1px;
+}
+
+/* main section */
+
+.main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  margin-left: 30px;
+}
+
+.side-links {
+  width: 33%;
+  margin: 30px;
+}
+
+.read_by_country {
+  background-color: aquamarine;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  padding: 30px 20px 20px 20px;
+  width: 80%;
+  height: 20%;
+}
+.read-by-date {
+  background-color: aquamarine;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  padding: 30px 20px 20px 20px;
+  width: 80%;
+  height: 20%;
+}
+article {
+  width: 50vh;
+}
+article {
+  display: flex;
+  margin-top: 10px;
+
+  width: 90%;
+  border-radius: 10px red;
+}
+
+.buttom {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.buttom button {
+  font-size: 10px;
+  width: auto;
+  font-size: 15px;
+  margin-top: 20px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  width: 100%;
+  background-image: url(IMG/harbhour.jpg);
+  color: white;
+}
+.buttom button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/* recomendation section  */
+.recc {
+  background: linear-gradient(to right, #85acc1, #abc05e);
+  height: 50%;
+  margin-top: 2 rem;
+  padding-top: 1rem;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-list > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  /* width: 300px;  */
+  display: flex;
+  background-color: white;
+  padding-bottom: 1rem;
+  border-radius: 5px;
+  margin: 10px 10px;
+  flex-direction: column;
+}
+
+.another button {
+  font-size: 15px;
+  margin-top: 20px;
+  border: 5px solid blue;
+  border-radius: 6px;
+  width: 100%;
+  background-image: url(IMG/harbhour.jpg);
+  color: white;
+}
+.another button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/* form or contat form */
+form {
+  width: auto;
+  padding: 30px;
+  background-color: red;
+}
+.titleme {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.bodyform {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.name p {
+  padding: 20px;
+}
+.bodyform p {
+  margin-left: 20px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+  height: 70px;
+  text-align: center;
+}
+.foter {
+  background-color: black;
+}
+
+/* Media quary */
+@media (max-width: 850px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .side-links {
+    display: flex;
+  }
+
+  .card-list {
+    display: flex;
+    flex-direction: column;
+  }
+  ul li {
+    margin-left: 10px;
+    padding-top: 2px;
+    margin-top: 0px;
+  }
+  .blogs {
+    padding: 0;
+  }
+  .logo {
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif black;
+    display: flex;
+    padding-right: 30px;
+  }
+
+  .top-menu ul {
+    margin-top: 25px;
+  }
+  .top-menu ul li {
+    margin-top: 10px;
+  }
+  .read_by_country {
+    width: 200%;
+  }
+  .read-by-date {
+    width: 200px;
+  }
+}
+@media (max-width: 580px) {
+  .logo {
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif black;
+    display: flex;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .top-menu ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  form {
+    width: auto;
+    padding: 10px;
+    background-color: red;
+  }
+  .titleme {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 40px;
+  }
+  .bodyform {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .name p {
+    padding: 20px;
+  }
+  .bodyform p {
+    margin-left: 20px;
+  }
+
+  .login {
+    display: flex;
+    justify-content: center;
+  }
+}
